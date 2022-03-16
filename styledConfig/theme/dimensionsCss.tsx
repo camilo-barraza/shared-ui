@@ -1,20 +1,22 @@
-import { getCssValue } from "./index";
-import { css } from "./common";
+import { getCssValue } from ".";
+import { css } from "../themeType";
 
 export const dimensionsCss = {
+  w50: css`
+    width: 50%;
+  `,
   w100: css`
     width: 100%;
   `,
   h100: css`
     height: 100%;
   `,
-  h50: css`
-    height: 50%;
-  `,
   w: css`
+    /* width in px when w is type number */
     width: ${(p: any) => getCssValue(p.w)};
   `,
   h: css`
+    /* height in px when h is type number */
     height: ${(p: any) => getCssValue(p.h)};
   `,
   dim: css`
@@ -34,11 +36,11 @@ export const dimensionsCss = {
     min-width: ${(p: any) => p.minw}px;
   `,
   minh: css`
-    /* minimum width in px */
+    /* minimum height in px */
     min-height: ${(p: any) => p.minh}px;
   `,
   br: css`
     /* border radius in px */
-    border-radius: ${(p: any) => getCssValue(p.br)};
+    border-radius: ${(p: any) => p.br}px;
   `,
 };

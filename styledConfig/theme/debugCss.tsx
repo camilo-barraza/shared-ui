@@ -1,4 +1,4 @@
-import { css } from "./common";
+import { css } from "../themeType";
 
 export const debugCss = {
   border: css`
@@ -7,16 +7,16 @@ export const debugCss = {
   outline: css`
     outline: solid 1px black;
   `,
-  borderWhite: css`
+  borderwhite: css`
     border: solid 1px white;
   `,
-  borderRed: css`
+  borderred: css`
     border: solid 1px red;
   `,
-  bgRed: css`
+  bgred: css`
     background: red;
   `,
-  bgBlue: css`
+  bgblue: css`
     background: blue;
   `,
   opacity5: css`

@@ -1,5 +1,5 @@
-import { css } from "./common";
-import { getCssValue } from "./index";
+import { getCssValue } from ".";
+import { css } from "../themeType";
 
 export const absolutePosition = {
   top: css`

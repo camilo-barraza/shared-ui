@@ -1,4 +1,4 @@
-import { css } from "./common";
+import { css } from "../themeType";
 
 export const animations = {
   fadeIn: css`

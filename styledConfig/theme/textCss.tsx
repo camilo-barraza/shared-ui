@@ -1,4 +1,4 @@
-import { css } from "./common";
+import { css } from "../themeType";
 
 export const textCss = {
   truncateText: css`
@@ -24,6 +24,9 @@ export const textCss = {
   `,
   textAlignCenter: css`
     text-align: center;
+  `,
+  textAlignRight: css`
+    text-align: right;
   `,
   uppercase: css`
     text-transform: uppercase;

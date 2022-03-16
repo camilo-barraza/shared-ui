@@ -1,4 +1,4 @@
-import { css } from "./common";
+import { css } from "../themeType";
 
 export const layoutCss = {
   dflex: css`
@@ -13,12 +13,22 @@ export const layoutCss = {
     display: flex;
     flex-direction: column;
   `,
+  flexColumnCentered: css`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  `,
   flexRowReverse: css`
     display: flex;
     flex-direction: row-reverse;
   `,
   spaceBetween: css`
     display: flex;
+    justify-content: space-between;
+  `,
+  spaceBetweenAligned: css`
+    display: flex;
+    align-items: center;
     justify-content: space-between;
   `,
   spaceAround: css`
@@ -37,6 +47,10 @@ export const layoutCss = {
     display: flex;
     align-items: flex-end;
   `,
+  alignStart: css`
+    display: flex;
+    align-items: flex-start;
+  `,
   alignCenter: css`
     display: flex;
     align-items: center;
@@ -50,6 +64,12 @@ export const layoutCss = {
   `,
   pRelative: css`
     position: relative;
+  `,
+  pSticky: css`
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 100;
   `,
   floatLeft: css`
     float: left;
