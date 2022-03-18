@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../Button";
+import { Button } from "../buttons";
 import { addToast, Toast } from "./index";
 
 export default {

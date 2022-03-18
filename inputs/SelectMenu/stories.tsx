@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { SelectMenu } from ".";
 import { MenuItem } from "../..";
 import { Div } from "../../styledConfig";
-import { Button } from "../../Button";
+import { Button } from "../../buttons";
 
 export default {
   component: SelectMenu,
