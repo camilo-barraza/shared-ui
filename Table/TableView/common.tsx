@@ -1,6 +1,6 @@
-import { Div } from "shared-ui/styledConfig";
 import styled, { css } from "styled-components";
 import { TableViewColumn } from ".";
+import { Div } from "../../styledConfig";
 
 export const columnWidthPercentage = (
   column: TableViewColumn,

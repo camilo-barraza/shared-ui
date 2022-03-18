@@ -1,7 +1,7 @@
 import React from "react";
-import { Div } from "shared-ui/styledConfig";
 import styled from "styled-components";
 import { closeIcon } from "../icons";
+import { Div } from "../styledConfig";
 
 export const ModalContainer = styled(Div)`
   top: 0px;

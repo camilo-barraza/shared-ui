@@ -1,6 +1,6 @@
 import React from "react";
-import { Div, DivThemeCSSProps } from "shared-ui/styledConfig";
 import styled, { css } from "styled-components";
+import { Div, DivThemeCSSProps } from "../../styledConfig";
 
 type IconContainerProps = {
   isDisabled?: boolean;

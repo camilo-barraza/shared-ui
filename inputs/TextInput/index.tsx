@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Div, DivThemeCSSProps } from "shared-ui/styledConfig";
 import styled, { css } from "styled-components";
-
 import { FormInputLabel } from "../..";
+import { Div, DivThemeCSSProps } from "../../styledConfig";
 
 export const HTMLInput = styled.input`
   position: relative;

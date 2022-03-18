@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Div, DivThemeCSSProps } from "shared-ui/styledConfig";
 import styled, { css } from "styled-components";
 import { FormInputLabel, MenuItem } from "../..";
+import { Div, DivThemeCSSProps } from "../../styledConfig";
 import { SelectMenu } from "../SelectMenu";
 import { TextInput as TextInputBase } from "../TextInput";
 

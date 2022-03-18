@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { AutoSizer, Grid } from "react-virtualized";
-import { Div, DivThemeCSSProps } from "shared-ui/styledConfig";
 import styled, { css } from "styled-components";
 import { Spinner } from "../../Spinner";
+import { Div, DivThemeCSSProps } from "../../styledConfig";
 import { SortBy } from "../TableDataProvider";
 import { TableHeaders } from "./TableHeaders";
 import { TableRow } from "./TableRow";

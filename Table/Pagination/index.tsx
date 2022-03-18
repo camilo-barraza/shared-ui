@@ -1,5 +1,4 @@
 import React from "react";
-
 import { useTableContext } from "../TableDataProvider";
 import {
   jumpToFirst,
@@ -9,7 +8,7 @@ import {
   previousPage,
 } from "./icons";
 import styled from "styled-components";
-import { Div, colors } from "shared-ui/styledConfig";
+import { Div, colors } from "../../styledConfig";
 
 const Container = styled(Div)`
   border: solid 1px ${(p) => p.theme.colors.gray300};
@@ -20,8 +19,13 @@ const Container = styled(Div)`
 `;
 
 const Pagination = () => {
-  const { totalPages, totalCount, pageSize, currentPage, setCurrentPage } =
-    useTableContext();
+  const {
+    totalPages,
+    totalCount,
+    pageSize,
+    currentPage,
+    setCurrentPage,
+  } = useTableContext();
 
   const isFirstPage = currentPage === 1;
   const isLastPage = currentPage === totalPages;

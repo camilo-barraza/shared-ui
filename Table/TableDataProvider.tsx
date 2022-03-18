@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { api } from "shared-ui/api";
+import { api } from "../api";
 import { Spinner } from "../Spinner";
 
 export enum SortDirection {

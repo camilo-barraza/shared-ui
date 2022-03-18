@@ -1,8 +1,8 @@
 import { Placement } from "@popperjs/core";
 import React, { useEffect, useState } from "react";
 import { usePopper } from "react-popper";
-import { Div, DivThemeCSSProps } from "shared-ui/styledConfig";
 import styled from "styled-components";
+import { Div, DivThemeCSSProps } from "../styledConfig";
 
 type TooltipContentProps = {
   isActionable?: boolean;
