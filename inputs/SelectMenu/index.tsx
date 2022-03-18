@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { usePopper } from "react-popper";
-import { Div, DivThemeCSSProps } from "../../styledConfig";
+import { Div, DivThemeCSSProps } from "../../styledConfig/utils";
 
 export const SelectMenuBackdrop = styled(Div)`
   position: fixed;

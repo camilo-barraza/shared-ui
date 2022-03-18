@@ -1,6 +1,7 @@
+import React from "react";
 import styled, { css } from "styled-components";
 import { TableViewColumn } from ".";
-import { Div } from "../../styledConfig";
+import { Div } from "../../styledConfig/utils";
 
 export const columnWidthPercentage = (
   column: TableViewColumn,

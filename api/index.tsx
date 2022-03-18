@@ -1,3 +1,4 @@
+import React from "react";
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
 import { handleError, handleSuccess } from "./responseHandlers";
 import Qs, { IStringifyOptions } from "qs";

@@ -1,6 +1,7 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { colors, CSSProps, Div, themeProps } from "./styledConfig";
+import { CSSProps, Div, themeProps } from "./styledConfig/utils";
+import { colors } from "./styledConfig/theme/colorPalette";
 
 type MenuItemProps = {
   isSelected?: boolean;
@@ -69,7 +70,6 @@ export const Divider = styled(Div)`
   background: ${colors.black};
 `;
 
-export * from "./api";
 export * from "./icons";
 export * from "./inputs";
 export * from "./Table";

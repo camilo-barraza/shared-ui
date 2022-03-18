@@ -1,5 +1,4 @@
 import React from "react";
-
 export const closeIcon = (
   <svg
     width="23"

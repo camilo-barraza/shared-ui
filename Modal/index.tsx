@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { Div } from "../styledConfig/utils";
 import { closeIcon } from "../icons";
-import { Div } from "../styledConfig";
 
 export const ModalContainer = styled(Div)`
   top: 0px;
@@ -34,7 +34,7 @@ export const ModalBackdrop = styled(Div)`
 
 export const ModalWrapper = styled(Div)`
   background: ${(props) => props.theme.colors.white};
-  padding: 32px 40px;
+  padding: 32px 56px;
   border-radius: 8px;
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.32);
 `;

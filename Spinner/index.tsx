@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Div, theme } from "../styledConfig";
+import { theme } from "../styledConfig/theme";
+import { Div } from "../styledConfig/utils";
 
 const Wrapper = styled(Div)`
   width: 100%;

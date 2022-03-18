@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { Div, DivThemeCSSProps } from "../styledConfig";
+import { Div, DivThemeCSSProps } from "../styledConfig/utils";
 
 const types = ["primary", "secondary", "tertiary"] as const;
 export type ButtonTypes = typeof types[number];
@@ -144,7 +144,7 @@ export const Button = ({
       tabIndex={0}
       {...{ variant, isDisabled, onClick, ...props }}
     >
-      {children}
+      <>{children}</>
     </ButtonWrapper>
   );
 };

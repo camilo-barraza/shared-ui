@@ -3,7 +3,8 @@ import toast, { ToastBar, Toaster, ToastPosition } from "react-hot-toast";
 import { ToastOptions, ToastType } from "react-hot-toast/dist/core/types";
 import styled from "styled-components";
 import { defaultCheckIcon, greenCheckIcon, redXIcon } from "../icons";
-import { colors, Div } from "../styledConfig";
+import { colors } from "../styledConfig/theme/colorPalette";
+import { Div } from "../styledConfig/utils";
 
 const defaultDuration = 5000;
 const defaultPosition: ToastPosition = "bottom-right";

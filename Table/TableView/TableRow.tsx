@@ -1,7 +1,7 @@
 import React, { useMemo } from "react";
 import styled, { css } from "styled-components";
 import { TableViewProps } from ".";
-import { Div, DivThemeCSSProps } from "../../styledConfig";
+import { Div, DivThemeCSSProps } from "../../styledConfig/utils";
 import { columnWidthPercentage, TableViewCellContainer } from "./common";
 
 export const Cell = (props: any) => {

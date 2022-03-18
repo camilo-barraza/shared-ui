@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
-import { api } from "../api";
 import { Spinner } from "../Spinner";
+import { api } from "../api";
 
 export enum SortDirection {
   asc = "asc",

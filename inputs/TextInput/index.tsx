@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
 import styled, { css } from "styled-components";
+
 import { FormInputLabel } from "../..";
-import { Div, DivThemeCSSProps } from "../../styledConfig";
+
+import { Div, DivThemeCSSProps } from "../../styledConfig/utils";
 
 export const HTMLInput = styled.input`
   position: relative;

@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
-import { DivThemeCSSProps, Div } from "../styledConfig";
+import { DivThemeCSSProps, Div } from "../styledConfig/utils";
 import { Pagination } from "./Pagination";
 import { useTableContext } from "./TableDataProvider";
 import { TableView as TableViewBase } from "./TableView";

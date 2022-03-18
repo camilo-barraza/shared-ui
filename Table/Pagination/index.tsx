@@ -1,4 +1,5 @@
 import React from "react";
+
 import { useTableContext } from "../TableDataProvider";
 import {
   jumpToFirst,
@@ -8,7 +9,8 @@ import {
   previousPage,
 } from "./icons";
 import styled from "styled-components";
-import { Div, colors } from "../../styledConfig";
+import { colors } from "../../styledConfig/theme/colorPalette";
+import { Div } from "../../styledConfig/utils";
 
 const Container = styled(Div)`
   border: solid 1px ${(p) => p.theme.colors.gray300};

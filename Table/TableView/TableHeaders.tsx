@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import styled, { css } from "styled-components";
 import { TableViewProps } from ".";
-import { Div, DivThemeCSSProps } from "../../styledConfig";
+import { Div, DivThemeCSSProps } from "../../styledConfig/utils";
 import { chevronDown as chevronDownIcon } from "../icons";
 import { SortDirection } from "../TableDataProvider";
 import { columnWidthPercentage, TableViewCellContainer } from "./common";

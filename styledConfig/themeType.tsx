@@ -8,7 +8,3 @@ export const css = cssBase as ThemedCssFunction<null>;
 // `css` shouldn't use ${(props) => props.theme.css.};
 
 export type ThemeType = typeof theme;
-
-declare module "styled-components" {
-  export interface DefaultTheme extends ThemeType {}
-}
