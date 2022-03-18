@@ -11,7 +11,7 @@ type ButtonStyles = {
 const styles: ButtonStyles = {
   primary: css`
     color: ${(props) => props.theme.colors.white};
-    background: ${(props) => props.theme.colors.blue100};
+    background: ${(props) => props.theme.colors.pink500};
 
     border: solid 4px ${(props) => props.theme.colors.pink500};
     box-sizing: border-box;
