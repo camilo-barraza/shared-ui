@@ -1,0 +1,7 @@
+{
+  "name": "Toast",
+  "version": "1.0.0",
+  "dependencies": {
+    "react-hot-toast": "^2.1.1"
+  }
+}

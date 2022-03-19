@@ -1,0 +1,8 @@
+{
+  "name": "TooltipProvider",
+  "version": "1.0.0",
+  "dependencies": {
+    "@popperjs/core": "^2.11.0",
+    "react-popper": "^2.2.5"
+  }
+}

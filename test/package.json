@@ -1,0 +1,10 @@
+{
+  "name": "Test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/luxon": "^2.0.4",
+    "luxon": "^1.26.0"
+  }
+}
