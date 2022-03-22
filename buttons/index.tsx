@@ -144,7 +144,7 @@ export const Button = ({
       tabIndex={0}
       {...{ variant, isDisabled, onClick, ...props }}
     >
-      <>{children}</>
+      <>test2{children}</>
     </ButtonWrapper>
   );
 };
