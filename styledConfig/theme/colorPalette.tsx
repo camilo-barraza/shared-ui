@@ -67,7 +67,7 @@ const orange = {
   orange200: "#FBDCA0",
   orange300: "#FACD78",
   orange400: "#F8BE51",
-  orange500: "#EF9F09",
+  orange500: "#FF9A34",
   orange600: "#CD8808",
   orange700: "#AA7106",
   orange800: "#885A05",

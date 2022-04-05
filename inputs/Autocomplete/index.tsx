@@ -54,6 +54,7 @@ const Autocomplete = ({
 
   useEffect(() => {
     if (value) setText(findOptionLabel);
+    else setText("");
   }, [value]);
 
   useEffect(() => {
@@ -77,7 +78,16 @@ const Autocomplete = ({
     : options;
 
   const inputIconUI = text ? (
-    <ClearIcon clickable dim={24} centered onClick={() => onChange(null)}>
+    <ClearIcon
+      clickable
+      dim={24}
+      centered
+      onClick={(evt) => {
+        evt.preventDefault();
+        evt.stopPropagation();
+        onChange(null);
+      }}
+    >
       {clearIcon}
     </ClearIcon>
   ) : (

@@ -1,7 +1,6 @@
-import React from "react";
 import styled, { css } from "styled-components";
-import { TableViewColumn } from ".";
 import { Div } from "../../styledConfig/utils";
+import { TableViewColumn } from ".";
 
 export const columnWidthPercentage = (
   column: TableViewColumn,
@@ -27,6 +26,6 @@ export const TableViewCellContainer = styled(Div)`
         cursor: pointer;
       }
     `}
-  ${(p) => p.theme.css.body2};
+  ${(p) => p.theme.css.body3};
   color: ${(p) => p.theme.colors.textPrim};
 `;

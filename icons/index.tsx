@@ -1,33 +1,25 @@
 import React from "react";
 export const closeIcon = (
   <svg
-    width="23"
-    height="22"
-    viewBox="0 0 23 22"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M21.5034 1.1286L1.50342 21.1286L21.5034 1.1286Z"
-      fill="#747474"
+      d="M6 6.00003L18.7742 18.7742"
+      stroke="black"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
     <path
-      d="M21.5034 1.1286L1.50342 21.1286"
-      stroke="#B8C3EE"
-      strokeWidth="1.6"
-    />
-    <path
-      fillRule="evenodd"
-      clipRule="evenodd"
-      d="M1.50342 1.1286L21.5034 21.1286L1.50342 1.1286Z"
-      fill="#747474"
-    />
-    <path
-      d="M1.50342 1.1286L21.5034 21.1286"
-      stroke="#B8C3EE"
-      strokeWidth="1.6"
+      d="M6 18.7742L18.7742 6.00001"
+      stroke="black"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
